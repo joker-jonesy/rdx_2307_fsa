@@ -10,7 +10,7 @@ const store = configureStore({
         products:productReducer,
         cart: cartReducer,
         denom: denomReducer,
-        // [pokemonApi.reducerPath]: pokemonApi.reducer
+        [pokemonApi.reducerPath]: pokemonApi.reducer
 
     },
     middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(pokemonApi.middleware)

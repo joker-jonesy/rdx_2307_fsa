@@ -11,6 +11,8 @@ function ProductPage(){
 
     const product = products.find((itm)=> itm.name === params.name)
 
+    console.log(data);
+
     return(
         <Content>
             <Product dt={product}/>
