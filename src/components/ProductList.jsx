@@ -4,6 +4,7 @@ import Product from "./Product.jsx";
 function ProductList(){
 
     const products = useSelector(state=>state.products);
+    console.log(products)
 
     return(
         <>
